@@ -2,10 +2,13 @@
 
 @section('content')
     <div>
+        @if(function_exists('get_region_halland_header'))
         <nav aria-label="Huvudnavigation" class="container background-dark-blue-frida mx-auto mobile-friendly-padding" style="background-image: url(../include/img/front.jpg); background-size: cover;">
-            <ul class="flex flex-wrap p3 background-white" aria-label="Huvudnavigation">
-                @include('partials.nav-front')
-            </ul>
+        	@include('partials.nav-front')
         </nav>
+        @endif
+    </div>
+    <div class="background-white">
+	     @include('partials.nyheter')
     </div>
 @endsection

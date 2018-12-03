@@ -6,12 +6,7 @@
 	<!-- Content with grey background -->
 	<!-- **************************** -->
 	<div class="relative">
-		
-		<nav aria-label="Huvudnavigation" class="breadcrumbs container background-dark-blue relative mx-auto pl5 pr5 pt1 pb2 z1">
-
-			@include('partials.breadcrumb')
-			
-		</nav>
+		@include('partials.breadcrumb')
 	</div>	
 	
 	<!-- ************ -->

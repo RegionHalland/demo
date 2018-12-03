@@ -11,7 +11,6 @@ use Roots\Sage\Template\BladeProvider;
  * Disable all plugin updates & WP update
  */
 add_filter('site_transient_update_plugins', '__return_false');
-define( 'WP_AUTO_UPDATE_CORE', false );
 
 /**
  * Theme assets

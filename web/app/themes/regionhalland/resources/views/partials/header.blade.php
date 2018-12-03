@@ -1,4 +1,5 @@
-<header aria-label="sidhuvud">
+@if(function_exists('get_region_halland_header'))
+    <header aria-label="sidhuvud">
     <nav aria-label="toppmeny" class="container mx-auto pb1 pt0 pr5 small bredcrumbs z4" style="text-align: right; background-color: #F3F3F3; position: relative;">
         <ul aria-label="Toppmenylänkar">
             <li class="pl4" style="display:inline">
@@ -38,7 +39,7 @@
                     </a>
                 </span>
                 <span class="ml1 pl1" style="border-left: 1px solid grey">
-                www.regionhalland.se
+                Byggd med front-end-plugins
                 </span>
             </div>
         </div>
@@ -58,3 +59,4 @@
         </div>
     </nav>
 </header>
+@endif
