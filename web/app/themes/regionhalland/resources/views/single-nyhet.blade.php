@@ -46,10 +46,11 @@
 								@while(have_posts()) @php(the_post())
 									@include('partials.article')
 
-										@php($field_link = get_field_object('field_1e9450bfdaf7b0649d6dc99dae7841ba'))
-										{{ $field_link['value']['title'] }}<br>
-										{{ $field_link['value']['url'] }}<br>
-										{{ $field_link['value']['target'] }}<br>
+										<br>
+										@php($field_link = get_field_object('field_1000014'))
+										<a href="{{ $field_link['value']['url'] }}" target="{{ $field_link['value']['target'] }}">{{ $field_link['value']['title'] }}</a>
+										<br>
+										<br>
 
 									@include('partials.entry-meta')
 								@endwhile
