@@ -37,8 +37,8 @@
                     </a>
                 </span>
                 <span class="ml1 pl1" style="border-left: 1px solid grey">
-                Byggd med front-end-plugins XXX
-                JOHN SKRIVER BRANCH
+                TEST1 JOHN
+
                 </span>
             </div>
         </div>
