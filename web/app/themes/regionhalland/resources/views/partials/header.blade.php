@@ -37,8 +37,12 @@
                     </a>
                 </span>
                 <span class="ml1 pl1" style="border-left: 1px solid grey">
+<<<<<<< HEAD
                 Byggd med front-end-plugins XXX
                 JOHN SKRIVER BRANCH 
+=======
+                Byggd med front-end-plugins XXX YYY
+>>>>>>> demo_002
                 </span>
             </div>
         </div>
