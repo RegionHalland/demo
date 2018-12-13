@@ -3,9 +3,7 @@
     <nav aria-label="toppmeny" class="container mx-auto pb1 pt0 pr5 small bredcrumbs z4" style="text-align: right; background-color: #F3F3F3; position: relative;">
         <ul aria-label="Toppmenylänkar">
             <li class="pl4" style="display:inline">
-                <svg  class="icon icon--sm mr1" viewBox="0 0 8 8">
-                    {!! get_region_halland_icon('headphone') !!}
-                </svg>
+                <i data-feather="headphones" style="color: red;"></i>
                 <a id="bapluslogo" class="logo" title="Aktivera Talande Webb" onclick="toggleBar();" href="#" style="vertical-align: middle; color: black;">Aktivera Talande Webb</a>
             </li>
             <li class="pl4" style="display:inline">

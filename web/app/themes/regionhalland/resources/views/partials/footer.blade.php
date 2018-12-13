@@ -57,3 +57,6 @@
         </div>
     </footer>
 @endif
+<script>
+  feather.replace()
+</script>

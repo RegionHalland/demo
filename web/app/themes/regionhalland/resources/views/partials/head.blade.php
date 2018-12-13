@@ -8,4 +8,5 @@
 	<script type='text/javascript' src='{!! env('WP_HOME') !!}/include/scripts/jquery.3.3.1.min.js?ver=3.1.1'></script>
 	<script type='text/javascript' src='{!! env('WP_HOME') !!}/include/scripts/application.js'></script>
 	<script type='text/javascript' src='{!! env('WP_HOME') !!}/include/scripts/std-java.js'></script>
+	<script type='text/javascript' src='{!! env('WP_HOME') !!}/include/scripts/feather.min.js'></script>
 </head>
