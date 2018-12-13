@@ -37,7 +37,7 @@
                     </a>
                 </span>
                 <span class="ml1 pl1" style="border-left: 1px solid grey">
-                Byggd med front-end-plugins
+                Byggd med front-end-plugins XXX
                 </span>
             </div>
         </div>
