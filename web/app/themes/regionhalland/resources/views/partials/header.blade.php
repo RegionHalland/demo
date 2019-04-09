@@ -47,7 +47,7 @@
                     </a>
                 </span>
                 <span class="ml1 pl1" style="border-left: 1px solid grey">
-                DEMO SAJT
+                DEMO SAJT version 1.0.1
 
                 </span>
             </div>
