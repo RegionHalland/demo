@@ -30,6 +30,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/RegionHalland/region-halland-acf-page-i-frame.git"
     }
   ],
   "require": {
@@ -40,7 +44,8 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
-    "gridonic/princexml-php": "^1.2"
+    "gridonic/princexml-php": "^1.2",
+    "regionhalland/region-halland-acf-page-i-frame": "1.1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
