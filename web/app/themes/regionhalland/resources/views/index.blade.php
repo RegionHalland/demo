@@ -8,6 +8,8 @@
         </nav>
         @endif
     </div>
+    @php($myAnalys = get_region_halland_ticket_analys())
+    <?php var_dump($myAnalys); ?>
     <div class="background-white">
 	     @include('partials.nyheter')
     </div>

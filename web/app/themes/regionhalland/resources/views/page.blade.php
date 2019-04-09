@@ -36,6 +36,10 @@
 							<div>
 								<h1>{{ the_title() }}</h1>
 							</div>
+
+							<div>
+								{{ get_region_halland_acf_page_ingress() }}
+							</div>
 							
 							<div id="main">
 								@while(have_posts()) @php(the_post())
@@ -43,7 +47,15 @@
 									@include('partials.entry-meta')
 								@endwhile
 							</div>
-
+							<div>&nbsp;</div>
+							
+							@php($myParentPage = get_region_halland_parent_page())
+							<?php var_dump($myParentPage); ?>
+							@if($myParentPage['has_back'] == 1)
+							<span>
+								<a href="{{$myParentPage['url']}}">{{$myParentPage['post_title']}}
+							</span>
+							@endif
 						</main>
 					</div>
 

@@ -1,5 +1,15 @@
 @if(function_exists('get_region_halland_header'))
+    <?php 
+        $strSearchText = "";
+        if(isset($_GET["q"])){
+            $strSearchText = $_GET["q"];
+        }
+    ?>
     <header aria-label="sidhuvud">
+    <form method="get" action="http://stage-demo.local/search">
+        <input type="text" name="q" value="<?=$strSearchText?>" style="width:120px;">
+        <input type="submit" value="OK">
+    </form>
     <nav aria-label="toppmeny" class="container mx-auto pb1 pt0 pr5 small bredcrumbs z4" style="text-align: right; background-color: #F3F3F3; position: relative;">
         <ul aria-label="Toppmenylänkar">
             <li class="pl4" style="display:inline">
@@ -37,7 +47,7 @@
                     </a>
                 </span>
                 <span class="ml1 pl1" style="border-left: 1px solid grey">
-                TEST1 JOHN
+                DEMO SAJT
 
                 </span>
             </div>
@@ -57,5 +67,6 @@
             </ul>
         </div>
     </nav>
+
 </header>
 @endif
